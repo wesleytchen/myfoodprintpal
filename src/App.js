@@ -45,7 +45,6 @@ function App(props) {
     setItems(remainingItems);
   }
   var total_carbon = taskList.reduce((total_carbon, { props }) => total_carbon += props.carbon, 0);
-  const tasksNoun = total_carbon !== 1 ? 'tasks' : 'task';
   const headingTextCarbon = `${total_carbon} kg of carbon in this meal`;
   var total_water = taskList.reduce((total_water, { props }) => total_water += props.water, 0);
   const headingTextWater = `${total_water} gallons of water used for this meal`;
@@ -58,7 +57,7 @@ function App(props) {
         <h2 id="list-heading">{headingTextCarbon}</h2>
         <h2 id="list-heading">{headingTextWater}</h2>
         <Form addItem={addItem} />
-        <h2 id="list-heading">Foods</h2>
+        <p class="h2">Current meal</p>
         <ul
           className="todo-list stack-large stack-exception"
           aria-labelledby="list-heading"

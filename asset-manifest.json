@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/myfoodprintpal/static/css/main.13a69493.css",
+    "main.js": "/myfoodprintpal/static/js/main.61c59f6f.js",
+    "static/media/Logo.jpg": "/myfoodprintpal/static/media/Logo.d0c59803509912748c5d.jpg",
+    "index.html": "/myfoodprintpal/index.html",
+    "main.13a69493.css.map": "/myfoodprintpal/static/css/main.13a69493.css.map",
+    "main.61c59f6f.js.map": "/myfoodprintpal/static/js/main.61c59f6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13a69493.css",
+    "static/js/main.61c59f6f.js"
+  ]
+}
